@@ -6,7 +6,6 @@
   "scripts": {
     "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
     "start": "npm run develop"
-
   },
   "eslintConfig": {
     "extends": [
@@ -20,6 +19,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
@@ -34,8 +36,12 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "esm": "^3.2.25",
     "gatsby": "^3.14.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-styled-components": "^4.14.0",
     "prettier": "^2.4.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1",
+    "styled-normalize": "^8.0.7"
   }
 }
